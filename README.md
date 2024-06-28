@@ -11,9 +11,11 @@ This repository contains a Diabetes Prediction Machine Learning model deployed a
 ## Usage
 
 1. Clone the repository.
-2. Install the necessary dependencies.
-3. Run the Jupyter notebook in Google Colaboratory.
-4. Use the provided ngrok URL to access the API.
+2. Upload the dataset CSV file (`diabetes.csv`) and the model .sav file (`diabetes_model.sav`) to the project directory.
+3. Install the necessary dependencies:
+
+   ```bash
+   pip install fastapi pydantic uvicorn pyngrok fastapi-cors-middleware nest-asyncio
 
 ## Endpoints
 
