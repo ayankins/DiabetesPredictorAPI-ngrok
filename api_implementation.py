@@ -1,14 +1,7 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Fri Jun 28 04:22:51 2024
-
-@author: Helios
-"""
-
 import json
 import requests 
 
-url = 'https://81e5-35-188-255-95.ngrok-free.app/diabetes_prediction'
+url = 'https://81e5-35-188-255-95.ngrok-free.app/diabetes_prediction' 
 
 input_data_for_model = {
     
